@@ -13,7 +13,7 @@ Note the campaign ids in the left-column along with data of interest in subseque
 
 ### Analysis of Outcomes based on Launch Date
 
-Our first challenge is to parse theatrical campaigns from the dataset along with the months from each of all the years the campaigns started.  This is accomplished using pivot tables to filter our campaign categories to only include theatrical performances. As we are interested in campaign outcomes as they relate to month of the year for all years represented in the dataset, we must parse out the month from the dates given for each campaign start date and add that to the pivot table as well.  The following images show several of the filters we applied and the columns we used in our pivot tables. 
+Our first challenge is to parse theatrical campaigns from the dataset along with the months from each of all the years the campaigns started.  This is accomplished using pivot tables to filter our campaign categories to only include theatrical performances. As we are interested in campaign outcomes as they relate to month of the year for all years represented in the dataset, we must parse out the month from the dates given for each campaign start date and add that to the pivot table as well.  The following images show several of the filters can potentially apply, and the columns we used in our pivot tables. 
 
 Main dataset:
 
@@ -49,11 +49,12 @@ Some of the more complex COUNTIF syntax created some difficulty. However this wa
   
 - What can you conclude about the Outcomes based on Goals?  
   
-  The greatest spread between successes and failures occurs with goal amounts less than $1000. However if one must absolutely use higher goal, the greater spread       between successes and failures occurs between $35000 and $50000
+  The greatest spread between successes and failures occurs with goal amounts less than $1000. However if one must absolutely use higher goal, the greater spread       between successes and failures occurs between $35000 and $50000.
   
 - What are some limitations of this dataset?  
   
-We could look further and see  if these trends are similar across all countries in which case another dataset that takes into account time of year the campaign     starts but allows you to filter by country may provide more insight. Additional regression analysis in order to determine the probability of a campaign being         successful based on country and month might also help.  Summer occurs in the Northern Hemisphere during the months with higher successes. Do the same trends hold     true for countries in the southern hemisphere where winter is starting during those months. Perhaps dividing countries by hemisphere and seeing the trends             (successes by month) reverse themselves.
+  We could look further and see  if these trends are similar across all countries in which case another dataset that takes into account time of year the campaign       starts but allows you to filter by country may provide more insight. Additional regression analysis in order to determine the probability of a campaign being         successful based on country and month might also help.  Summer occurs in the Northern Hemisphere during the months with higher successes. Do the same trends hold     true for countries in the southern hemisphere where winter is starting during those months. Perhaps dividing countries by hemisphere and seeing the trends             (successes by month) reverse themselves.
+
 - What are some other possible tables and/or graphs we could create?  
 
   We need not limit ourselves to theatrical performance. Perhaps similar graphs of other campaigns related to the "arts" would give us some additional insight into     how to execute our campaign. Also, as noted above, creating graphs and tables to group countries by hemisphere might also be helpful.
